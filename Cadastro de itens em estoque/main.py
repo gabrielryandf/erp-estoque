@@ -9,3 +9,4 @@ def main():
         print("4 - Sair")
 
         opcao = input("Escolha: ")
+
