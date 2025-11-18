@@ -17,7 +17,7 @@ O sitema tem as seguintes funções:
 
 1- Cadastrar produto:
 
--Nome, categora, quantidade e Preço.
+- Nome, categora, quantidade e Preço.
 
 2- Exclusão:
 - Exclusão por nome ou ID.
