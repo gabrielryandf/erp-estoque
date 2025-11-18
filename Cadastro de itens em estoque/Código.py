@@ -13,6 +13,16 @@ def cadastrar_produto():
         INSERT INTO produtos (nome, categoria, unidade_medida, preco, quantidade)
         VALUES (?, ?, ?, ?, ?)
     """, (nome, categoria, unidade, preco, quantidade))
+    con.commit()
+    print(" Produto cadastrado com sucesso!")
+
+
+def excluir_produto():
+    nome = input("\nNome do produto a excluir: ")
+
+    cur.execute("SELECT id FROM produtos WHERE LOWER(nome) = LOWER(?)", (nome,))
+    produto = cur.fetchone()
+
 
 
     
