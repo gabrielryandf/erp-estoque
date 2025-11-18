@@ -1,20 +1,28 @@
-# MRV
- Lista para armazenar os produtos. Cada produto será um dicionário.
-estoque = []
-# Variável para gerar um ID único para cada produto.
-proximo_id = 1
+Sobre:
+Esse projeto simula um estoque básico inspirado em sistema ERP. Ele permite o cadastro, exclusão, consulta e listagem de produtos (CRUD).
 
-def cadastrar_produto():
-    """
-    Função para cadastrar um novo produto no estoque.
-    Solicita nome, categoria, unidade de medida, preço e quantidade.
-    """
-    global proximo_id
-    print("\n--- Cadastro de Novo Produto ---")
-    
-    # Solicita as informações do produto ao usuário
-    nome = input("Digite o nome do produto: ")
-    categoria = input("Digite a categoria do produto: ")
-    # >>> NOVA ADIÇÃO: Solicitar a unidade de medida <<<
-    unidade_medida = input("Digite a unidade de medida (ex: UN, KG, LT, MT): ")
-    
+Objetivos:
+O sistema é em python e tem o objetivo de representar um estoque com operações semelhantes aos utilizados em ERPs reais.
+
+Conceitos:
+Cadastro de produtos, controle de estoques, relatórios, estrutura de dados, SqLite, CRUD.
+
+Funcionamento:
+O sitema tem as seguintes funções:
+
+1- Cadastrar produto
+2- Excluir produto
+3- Mostrar relatório de produtos cadastrados
+4- Sair
+
+1- Cadastrar produto:
+-Nome, categora, quantidade e Preço.
+
+2- Exclusão:
+- Exclusão por nome ou ID.
+
+3- Relatório:
+- Listar produtos cadastrados, mostrar nome, categoria, preço e quantidade.
+
+4- Sair:
+- Sai do estoque.
