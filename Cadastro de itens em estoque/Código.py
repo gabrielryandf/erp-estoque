@@ -22,6 +22,13 @@ def excluir_produto():
 
     cur.execute("SELECT id FROM produtos WHERE LOWER(nome) = LOWER(?)", (nome,))
     produto = cur.fetchone()
+     if produto:
+        cur.execute("DELETE FROM produtos WHERE id = ?", (produto[0],))
+        con.commit()
+        print("Produto excluído.")
+    else:
+        print("Produto não encontrado.")
+
 
 
 
