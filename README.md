@@ -10,15 +10,13 @@ Cadastro de produtos, controle de estoques, relatórios, estrutura de dados, SqL
 Funcionamento:
 O sitema tem as seguintes funções:
 
-1- Cadastrar produto
-
-2- Excluir produto
-
-3- Mostrar relatório de produtos cadastrados
-
-4- Sair
+1- Cadastrar produto;
+2- Excluir produto;
+3- Mostrar relatório de produtos cadastrados;
+4- Sair.
 
 1- Cadastrar produto:
+
 -Nome, categora, quantidade e Preço.
 
 2- Exclusão:
