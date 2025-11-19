@@ -27,3 +27,5 @@ O sitema tem as seguintes funções:
 
 4- Sair:
 - Sai do estoque.
+
+O projeto foi desenvolvido com foco em simplicidade e aprendizado, servindo de estudo para futuros códigos.
